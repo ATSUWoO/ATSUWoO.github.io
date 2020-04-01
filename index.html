@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Webデザイナー TARO YAMADAのポートフォリオサイトです！'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Webデザイナー TARO YAMADAのポートフォリオサイトです！" />
+  <title>ATSUYA SHONO ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div id="wrapper">
+    <nav id="gnav" class="fixed">
+      <ul>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#feature">FEATURE</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header id="header">
+      <div class="inner">
+        <h1 class="logo">
+          <div class="logo-title">ATSUYA SHONO</div>
+          <div class="logo-desc">PORTFOLIO</div>
+        </h1>
+      </div>
+    </header>
+    <main id="contents">
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">MY RESEARCH</h2>
+            <div class="section-intro">
+              <div class="section-text">
+                研究活動におけるミーティングのリフレクションを支援するためのシステムの開発を目指しています。ざっくばらんに概要を紹介します。<br class="pc">
+              </div>
+            </div>
+          </div>
+          <div class="section-body card-wrapper my-gallery">
+            <div class="card">
+              <a href="img/works/図1.png" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/図1.png" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">①研究の全体像</div>
+              </div>
+            </div>
+            <div class="card">
+              <a href="img/works/図2.png" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/図2.png" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">②リフレクション支援システム</div>
+              </div>
+            </div>
+            <div class="card">
+              <a href="img/works/図３.png" data-size="960x720" class="card-image hover-action-01">
+                <img class="lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/図３.png" alt="" />
+              </a>
+              <div class="card-caption">
+                <div class="card-caption-title">③学習環境とリフレクション支援システムの接続</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="feature">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">SYSTEM</h2>
+            <div class="section-intro">
+              リフレクション支援に向けた取り組み
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="section-image">
+              <a href="https://webdesigner-go.com/" class="hover-action-01" target="_blank"><img
+                  src="img/works/図２.png" alt=""></a>
+            </div>
+            <div class="section-desc">
+              <div class="section-text">
+                <span class="text-bold">システム名：</span><br>リフレクション支援システム（言語：C#　OS：Windows）<br><br><br>
+                <span class="text-bold">担当：</span><br>Design / Coding (Responsive)
+                <br><br>
+                <span
+                  class="text-bold">背景：</span><br>提案者がプレゼンを行い、それを起点に組織の方向性を決定するためのミーティングでは、「発表内容を考えながら他者の発言を汲み取る」と言った高度な認知活動が要求されるため、提案者はリフレクションを行い議論内容の理解や思考整理を行うことが一般的である。
+                <br><br>
+                <span
+                  class="text-bold">着想：</span><br>一般的には言語情報を中心にリフレクションを行われるが、議論の場での活動情報（視線情報など）を用いることで、より思考の深化（自己内対話）につながるリフレクションができる可能性がある。
+                <br><br>
+                <span
+                  class="text-bold">アプローチ（①参照）：</span><br>議論中にやり取りされる視線情報・発話情報を組み合わせ、対面の議論では着目できない、思考の深化に資する可能性のあるリフレクション区間（例：聞き手が発表に注目していない可能性のある区間）を抽出するためのルールを適用し学習者に提示する。
+                <br><br>
+                <span
+                  class="text-bold">議論場（先行研究　③参照）：</span><br>計算機が掲載内容を理解できる（セマンティクスを付与した）議論資料を活用し議論を実施可能　視線や音声を計測可能なデバイスを接続することで、議論のいつ誰が何を話したのか・何を見ていたのかが議論参加者ごとにDBに蓄積される
+                <br><br>
+                <span
+                  class="text-bold">学習者（提案者）のリフレクション活動：</span><br>①同期再生された各参加者の映像をビデオ映像提示エリアで閲覧可能。シークバーを動かすことで任意の時点を再生することができる。<br>②開発者（私）によって設定されたリフレクションの観点がインタラクションルール適用ボタンとして設定されており、押下することでそれが発現した区間がインタラクション区間提示エリアに表示。<br>
+                  ③可視化されたリフレクション区間にマウスカーソルを合わせることで、その区間で実際にどのようなことが起きていたのかをインタラクション情報可視化ツールチップで確認可能。
+              </div>
+              <br><br>
+              <span
+                class="text-bold">研究活動：</span><br>正野敦也, 林佑樹, 瀬田和久：CSCLシステムの言語・非言語情報を活用した振り返り支援の検討,教育システム情報学会全国大会予稿集, pp.451-452 (2019)<br>正野敦也, 林佑樹, 瀬田和久：議論振り返り支援に資するマルチモーダル情報の活用法,人工知能学会 第87回 先進的学習科学と工学研究会,SIG-ALST-B902-08,pp.38 – 41(2019)
+                <br>正野敦也, 林佑樹, 瀬田和久：創造的議論からの学びを促すリフレクション支援手法の検討 ―ドキュメントセマンティクスとマルチモーダル情報の活用―, 第34回人工知能学会全国大会予稿集 (To Appear, 2020)
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">ABOUT</h2>
+            <div class="section-intro">
+              こんにちは！正野です！
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="section-image">
+              <img class="lazyload fadein" data-src="img/works/profile.JPG" alt="">
+            </div>
+            <div class="section-desc">
+              <div class="section-text">
+                正野敦也といいます。大阪府立大学大学院　人間社会システム科学研究科　現代システム科学専攻　瀬田研究室　所属です。<br>
+                趣味はストリートダンスや音楽鑑賞です。一人でいることも苦ではありません。<br>
+                大学院ではリフレクション支援　共同活動の領域で人工知能の一端に触れながら研究を行っています！<br>
+                今年の目標はこの研究で学会で賞を取りたいです！よろしくおねがいします。<br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">SKILL</h2>
+            <div class="section-intro">
+            </div>
+          </div>
+          <div class="section-body card-wrapper">
+            <div class="card">
+              <div class="skill-icon">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">HTML5/CSS3</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  リファレンスを見ながら大体のことはできます</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">JavaScript</h3>
+                <div class="rating">
+                  <div class="rate rate2"></div>
+                </div>
+                <div class="section-text">
+                  リファレンスを見れば理解できます</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">WordPress</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  リファレンスを見ながら大体のことはできます</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">C#</h3>
+                <div class="rating">
+                  <div class="rate rate4"></div>
+                </div>
+                <div class="section-text">
+                  オブジェクト指向プログラミングの基礎は捉えられていると考えています　リファレンスは必要です</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">JAVA</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  リファレンスを見ればコードの仕組みを理解することはできます
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">DB(MySQL)</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  基本的な動作は理解しています。リファレンスがあれば応用的な事もできると考えています
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="section-intro">
+              お問い合わせは、メールでお願いいたします。
+            </div>
+          </div>
+          <div class="section-body contact-wrapper">
+            <div class="contact-list">
+              <div class="contact-other">buhibuhiatutu@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="pageTop">
+        <div id="js-pageTop">
+          Page Top
+        </div>
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;TARO YAMADA. All Rights Reserved.</>
+        </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
